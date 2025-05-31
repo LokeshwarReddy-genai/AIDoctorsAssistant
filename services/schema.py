@@ -33,7 +33,7 @@ function_schemas = [
         "parameters": {
             "type": "object",
             "properties": {
-                "appointment_id": {"type": "string"}
+                "appointment_id": {"type": "int"}
             },
             "required": ["appointment_id"]
         }
